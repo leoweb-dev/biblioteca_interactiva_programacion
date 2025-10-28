@@ -7,10 +7,15 @@ ventana.title("Escribe el código correcto")
 ventana.geometry("1366x768")
 
 # Creamos los objetos
-titulo = tk.Label(text="¡Escribe el código!", font=("Arial", 25, "bold"))
+titulo = tk.Label()
 pregunta = tk.Label(text="¿Cómo mostrarías tu nombre en pantalla?", font=("Arial", 15, "bold"))
-respuesta = tk.Entry(ventana, bd=1, relief="solid", font=("Cascadia Code", 15))
+respuesta = tk.Text(ventana)
 comprobar = tk.Button(text="¡Comprobar!", relief="groove", font=("Cascadia Code", 15, "bold"))
+
+# Configuración de los objetos
+respuesta.config(width=80, height=15, font=("Cascadia Code", 15), background="#080808", foreground="white", insertbackground="white")
+ventana.config(background='#242424')
+titulo.config(text="¡Escribe el código!", font=("Arial", 25, "bold"),background='#242424', foreground="white")
 
 # Mostramos los objetos
 titulo.pack()
