@@ -1,0 +1,30 @@
+
+{
+    "preguntas": [
+        {
+            "pregunta": "¿Cómo mostrarías tu nombre en pantalla?\\n\\n_____(\\\"Mi nombre\\\")",
+            "opciones": ["print", "input", "name", "show"],
+            "respuesta_correcta": "print"
+        },
+        {
+            "pregunta": "¿Qué función usas para recibir datos del usuario?\\n\\n_____(\\\"Ingresa tu edad: \\\")",
+            "opciones": ["print", "input", "get", "scan"],
+            "respuesta_correcta": "input"
+        },
+        {
+            "pregunta": "¿Cómo defines una función en Python?\\n\\n_____ mi_funcion():",
+            "opciones": ["def", "function", "func", "define"],
+            "respuesta_correcta": "def"
+        },
+        {
+            "pregunta": "¿Qué palabra clave usas para crear un bucle que repite mientras una condición es verdadera?\\n\\n_____ x < 10:",
+            "opciones": ["for", "while", "loop", "repeat"],
+            "respuesta_correcta": "while"
+        },
+        {
+            "pregunta": "¿Cómo creas una lista en Python?",
+            "opciones": ["mi_lista = []", "mi_lista = {}", "mi_lista = ()", "mi_lista = <>"],
+            "respuesta_correcta": "mi_lista = []"
+        }
+    ]
+}
