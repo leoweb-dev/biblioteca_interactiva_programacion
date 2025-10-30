@@ -98,8 +98,10 @@ Al finalizar el quiz, recibirás:
 ```
 biblioteca_interactiva_programacion/
 │
-├── main.py              # Script principal del juego
-├── preguntas.json       # Archivo con las preguntas del quiz
+├── main.py             # Script principal del juego
+├── preguntas.json      # Archivo con las preguntas del quiz
+├── .gitignore          # Su función principal es indicar qué archivos o carpetas deben ser ignorados por Git
+├── LICENSE             # Licencia MIT (De uso abierto)
 └── README.md           # Este archivo
 
 ```
