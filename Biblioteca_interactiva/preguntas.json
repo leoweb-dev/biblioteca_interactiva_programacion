@@ -25,6 +25,11 @@
             "pregunta": "¿Cómo creas una lista en Python?",
             "opciones": ["mi_lista = []", "mi_lista = {}", "mi_lista = ()", "mi_lista = <>"],
             "respuesta_correcta": "mi_lista = []"
+        },
+        {
+            "pregunta": "¿Qué es una variable en programación?",
+            "opciones": ["Un número que nunca cambia", "Un espacio en memoria para almacenar datos que pueden cambiar", "Un tipo de bucle", "Una función matemática"],
+            "respuesta_correcta": "Un espacio en memoria para almacenar datos que pueden cambiar"
         }
     ]
 }
