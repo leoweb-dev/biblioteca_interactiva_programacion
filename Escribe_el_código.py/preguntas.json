@@ -2,22 +2,22 @@
 {
     "preguntas": [
         {
-            "pregunta": "¿Cómo mostrarías tu nombre en pantalla?\\n\\n_____(\\\"Mi nombre\\\")",
+            "pregunta": "¿Cómo mostrarías tu nombre en pantalla? _____(\\\"Mi nombre\\\")",
             "opciones": ["print", "input", "name", "show"],
             "respuesta_correcta": "print"
         },
         {
-            "pregunta": "¿Qué función usas para recibir datos del usuario?\\n\\n_____(\\\"Ingresa tu edad: \\\")",
+            "pregunta": "¿Qué función usas para recibir datos del usuario? _____(\\\"Ingresa tu edad: \\\")",
             "opciones": ["print", "input", "get", "scan"],
             "respuesta_correcta": "input"
         },
         {
-            "pregunta": "¿Cómo defines una función en Python?\\n\\n_____ mi_funcion():",
+            "pregunta": "¿Cómo defines una función en Python? _____ mi_funcion():",
             "opciones": ["def", "function", "func", "define"],
             "respuesta_correcta": "def"
         },
         {
-            "pregunta": "¿Qué palabra clave usas para crear un bucle que repite mientras una condición es verdadera?\\n\\n_____ x < 10:",
+            "pregunta": "¿Qué palabra clave usas para crear un bucle que repite mientras una condición es verdadera? _____ x < 10:",
             "opciones": ["for", "while", "loop", "repeat"],
             "respuesta_correcta": "while"
         },

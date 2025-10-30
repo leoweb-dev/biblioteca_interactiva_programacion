@@ -39,7 +39,6 @@ respuesta_seleccionada.set(None)  # Iniciamos con None para que ninguno esté se
 
 # Función para cargar una pregunta
 def cargar_pregunta():
-    global pregunta_actual
     
     if pregunta_actual < len(preguntas):
         # Limpiamos la selección anterior
@@ -111,13 +110,13 @@ def mostrar_resultado_final():
     puntaje_final.pack(pady=20)
     
     if porcentaje == 100:
-        mensaje = "¡Perfecto! 🎉"
+        mensaje = "¡Perfecto!"
     elif porcentaje >= 70:
-        mensaje = "¡Muy bien! 👏"
+        mensaje = "¡Muy bien!"
     elif porcentaje >= 50:
-        mensaje = "¡Buen intento! 💪"
+        mensaje = "¡Buen intento!"
     else:
-        mensaje = "Sigue practicando 📚"
+        mensaje = "Sigue practicando"
     
     mensaje_label = tk.Label(resultado_frame, text=mensaje, 
                             font=("Arial", 18, "bold"), background='#242424', foreground="#4CAF50")
